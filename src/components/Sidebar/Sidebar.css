@@ -7,7 +7,7 @@
 }
 .sidebar-options{
     padding-top: 50px;
-    padding-left: 20%;
+    padding-left: 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -22,6 +22,11 @@
     padding: 8px 10px;
     border-radius: 3px 0px 0px 3px;
     cursor: pointer;
+}
+
+.sidebar-option.active{
+    background-color: #fff0ed;
+    border-color: tomato;
 }
 
 @media(max-width:900px){
