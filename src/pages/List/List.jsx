@@ -5,7 +5,7 @@ import "./List.css";
 
 const List = () => {
   const [list, setList] = useState([]);
-  const url = "http://localhost:4000";
+  const url = import.meta.env.VITE_API_URL;
 
   const fetchList = async () => {
     try {
