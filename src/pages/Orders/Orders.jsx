@@ -2,7 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
 import axios from "axios";
-import { assets } from "../../../../frontend/src/assets/assets";
+import { assets } from "../../../../frontend/src/assets/assets.js";
 import "./Orders.css";
 
 const Orders = () => {
