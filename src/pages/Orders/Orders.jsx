@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
 import axios from "axios";
 import "./Orders.css";
-import "../../assets/assets.js"
+import {assets} from "../../assets/assets.js"
 
 const Orders = () => {
   const url = import.meta.env.VITE_API_URL;
